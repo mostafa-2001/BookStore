@@ -25,6 +25,6 @@ namespace BookStore.DAL.Entities
 
         public int AuthorId { get; set; }
 
-        public Author Author { get; set; }
+        public virtual  Author Author { get; set; }
     }
 }
